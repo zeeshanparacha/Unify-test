@@ -44,7 +44,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Screen"
         },
         "group": "Layout",
         "type": "sidebarItem",
@@ -63,7 +63,42 @@
           {
             "type": "column",
             "id": "V1JyR0Sy0jvJNFV1p6i2V",
-            "gridProps": [],
+            "gridProps": [
+              {
+                "id": "VXTrVfYGqiQF4GHvU6k0W",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "label": "TESTING JSON",
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-0"
+              }
+            ],
             "layoutProperties": {
               "xl": 12,
               "lg": 12,
@@ -94,7 +129,20 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "VXTrVfYGqiQF4GHvU6k0W",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -110,7 +158,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Screen"
     },
     "layout": null,
     "events": [],
@@ -118,6 +166,43 @@
     "screenId": "zP314gAYn5UPNxWAays-8",
     "projectId": "63e11f522e8ca55be8254daa",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VXTrVfYGqiQF4GHvU6k0W",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "TESTING JSON",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0",
+    "screenId": "zP314gAYn5UPNxWAays-8",
+    "subType": "component",
+    "projectId": "63e11f522e8ca55be8254daa",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
